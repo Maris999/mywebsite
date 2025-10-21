@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Aboreto&family=Anton&family=BBH+Sans+Bogle&family=Bungee&family=Eagle+Lake&family=Italianno&family=Kaushan+Script&family=Lexend:wght@100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Nosifer&family=Parisienne&family=Playwrite+US+Modern&family=Quintessential&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&family=Zalando+Sans:ital,wdth,wght@0,125,200..900;1,125,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Aboreto&family=Anton&family=BBH+Sans+Bogle&family=Bungee&family=Italianno&family=Kaushan+Script&family=Lexend:wght@100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Nosifer&family=Parisienne&family=Playwrite+US+Modern&family=Quintessential&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&family=Zalando+Sans:ital,wdth,wght@0,125,200..900;1,125,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=BBH+Sans+Bogle&family=Bungee&family=Italianno&family=Kaushan+Script&family=Lexend:wght@100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Nosifer&family=Parisienne&family=Playwrite+US+Modern&family=Quintessential&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&family=Zalando+Sans:ital,wdth,wght@0,125,200..900;1,125,200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=BBH+Sans+Bogle&family=Bungee&family=Italianno&family=Kaushan+Script&family=Lexend:wght@100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Nosifer&family=Parisienne&family=Playwrite+US+Modern&family=Quintessential&family=Roboto:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&family=Zalando+Sans:ital,wdth,wght@0,125,200..900;1,125,200..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Bungee&family=Italianno&family=Kaushan+Script&family=Lexend:wght@100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Nosifer&family=Playwrite+US+Modern&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zalando+Sans:ital,wdth,wght@0,125,200..900;1,125,200..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oualid - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-logo">Oualid</a>
+            
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <div class="lang-current">
+                    <img src="https://flagcdn.com/w40/us.png" alt="English" class="lang-flag" id="currentFlag">
+                    <span class="lang-text" id="currentLang">English</span>
+                    <i class="fas fa-chevron-down lang-icon"></i>
+                </div>
+                <div class="lang-dropdown">
+                    <div class="lang-option" data-lang="en">
+                        <img src="https://flagcdn.com/w40/us.png" alt="English" class="lang-option-flag">
+                        <div class="lang-option-info">
+                            <div class="lang-option-name">English</div>
+                            <div class="lang-option-native">English</div>
+                        </div>
+                        <i class="fas fa-check lang-check"></i>
+                    </div>
+                    <div class="lang-option" data-lang="ar">
+                        <img src="https://flagcdn.com/w40/ma.png" alt="العربية" class="lang-option-flag">
+                        <div class="lang-option-info">
+                            <div class="lang-option-name">Arabic</div>
+                            <div class="lang-option-native">العربية</div>
+                        </div>
+                        <i class="fas fa-check lang-check"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button class="navbar-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-menu">
+                <li><a href="#" class="active" data-translate="nav_home">Home</a></li>
+                <li><a href="#projects" data-translate="nav_projects">Projects</a></li>
+                <li><a href="#contact" data-translate="nav_contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 data-translate="hero_title">Hi I'm Oualid</h1>
+                <p class="p" data-translate="hero_subtitle">welcome to my space on the web</p>
+                <div class="social-links">
+                    <a href="soon.." target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://discord.com/users/1292122408156659825" target="_blank" title="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="https://wa.me/0572620486" target="_blank" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://github.com/Maris999" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="stats-container">
+                    <div class="stat-circle">
+                        <span>1</span>
+                    </div>
+                    <div class="stat-label">
+                        <span data-translate="stats_projects">Projects</span>
+                        <span data-translate="stats_completed">Completed</span>
+                    </div>
+                    <div class="stat-circle">
+                        <span>1</span>
+                    </div>
+                    <div class="stat-label">
+                        <span data-translate="stats_years">Years of</span>
+                        <span data-translate="stats_experience">Experience</span>
+                    </div>
+                </div>
+            </div>
+            <div class="scene">
+                <img src="img/pic.png" alt="Profile picture of Oualid">
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+        <div class="projects-container">
+            <div class="projects-title">
+                <div class="loading-container">
+                    <div class="spinner-outer"></div>
+                    <div class="spinner-middle"></div>
+                    <div class="spinner-inner"></div>
+                    <div class="spinner-core"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                </div>
+                
+                <h2><span data-translate="projects_title">Coming Soon</span><span class="dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </span></h2>
+                <p data-translate="projects_subtitle">Currently working on exciting projects. Stay tuned!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="contact-card">
+                <div class="contact-background">
+                    <i class="fas fa-paper-plane"></i>
+                </div>
+                <div class="contact-content">
+                    <h2 data-translate="contact_title">Want to work together?</h2>
+                    <p data-translate="contact_subtitle">Let's create something amazing! Feel free to reach out and let's discuss your next project.</p>
+                    
+                    <button class="contact-button" id="contactBtn">
+                        <span data-translate="contact_button">Get In Touch</span> <i class="fas fa-arrow-right"></i>
+                    </button>
+
+                    <div class="contact-links" id="contactLinks">
+                        <a href="mailto:walidlaggou@gmail.com" class="contact-link email">
+                            <i class="fas fa-envelope"></i>
+                            <span data-translate="contact_email">Email Me</span>
+                        </a>
+                        <a href="https://wa.me/0572620486" target="_blank" class="contact-link whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Oualid</h3>
+                    <p data-translate="footer_tagline">Creating digital experiences</p>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#" data-translate="nav_home">Home</a>
+                    <a href="#projects" data-translate="nav_projects">Projects</a>
+                    <a href="#contact" data-translate="nav_contact">Contact</a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="Discord"><i class="fab fa-discord"></i></a>
+                    <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-translate="footer_copyright">&copy; 2025 Oualid. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
